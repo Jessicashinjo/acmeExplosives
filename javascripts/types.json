@@ -1,0 +1,40 @@
+{
+    "types": [
+        {
+            "id": 0,
+            "category": 0,
+            "name": "personal",
+            "description": "Fireworks intended for recreational use during holiday celebrations"
+        },
+        {
+            "id": 1,
+            "category": 0,
+            "name": "professional",
+            "description": "Fireworks intended for use by professionals"
+        },
+        {
+            "id": 2,
+            "category": 0,
+            "name": "celebratory",
+            "description": "Fireworks designed for all major holidays"
+        },
+        {
+            "id": 3,
+            "category": 1,
+            "name": "high-powered",
+            "description": "Specifically designed for high-powered construction"
+        },
+        {
+            "id": 4,
+            "category": 1,
+            "name": "medium-powered",
+            "description": "Designed for medium-powered jobs by professionals"
+        },
+        {
+            "id": 5,
+            "category": 1,
+            "name": "low-powered",
+            "description": "Designed for low-powered homeowner projects"
+        }
+    ]
+}
