@@ -44,15 +44,17 @@ var productInfo = (function(productInfo){
   productInfo.getJSONFile = function(){
     categoriesPromise().then(function(catData){
       categories = catData;
-      console.log(categories);
+      insertCategories(categories);
+      // console.log(categories);
       return typesPromise();
     }).then(function(typesData){
       types = typesData;
-      console.log(types);
+      // console.log(types);
       return productsPromise();
     }).then(function(prodData){
       products = prodData;
-      console.log(products);
+      // console.log(products);
+      return products;
     });
   };
 
