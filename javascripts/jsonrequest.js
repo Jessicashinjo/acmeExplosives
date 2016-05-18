@@ -45,15 +45,14 @@ var productInfo = (function(productInfo){
     categoriesPromise().then(function(catData){
       categories = catData;
       insertCategories(categories);
-      // console.log(categories);
       return typesPromise();
     }).then(function(typesData){
       types = typesData;
-      // console.log(types);
+      insertTypes(categories, types);
       return productsPromise();
     }).then(function(prodData){
       products = prodData;
-      // console.log(products);
+      eventHandlerForTypes(types, products);
       return products;
     });
   };

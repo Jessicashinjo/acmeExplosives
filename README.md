@@ -1,5 +1,35 @@
 # acmeExplosives
 
+[Demo](https://jessicashinjo.github.io)
+
+![Screen Shot]()
+
+## Installation
+
+```
+git clone https://github.com/....
+cd pretend-css-quiz
+```
+
+
+## License
+
+[MIT](https://github.com/jessicashinjo...)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Acme Explosives
 Setup
 
