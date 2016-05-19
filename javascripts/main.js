@@ -37,24 +37,38 @@ function eventHandlerForTypes(typesArray, productsArray){
   typesArray.types.forEach(function(type){
     var typeID = $(`#type${type.id}`);
     typeID.click(function(event){
-      insertProducts(event, productsArray);
+      insertProducts(event, typesArray, productsArray);
     });
   });
 }
 
-function insertProducts(event, productsArray){
+function insertProducts(event, typesArray, productsArray){
   var currentTypeId = event.currentTarget.id;
-  var products = $.each(productsArray.products[0], function(key, value){
-    console.log("product");
+  var product = $.each(productsArray.products, function(key, value){
+    return [value];
   });
+  var typeId = typesArray.types.map(function(type){
+    return type.id;
+  });
+  console.log("typeId", typeId);
+  $.each(product, function(key, value){
+    for(var prod in value){
+      for (var i = 0; i < typeId.length; i++) {
+        if ( typeId[i] === value[prod].type) {
+          console.log("current TypeId", typeId[i]);
+        };
+      };
+    };
+  });
+}
+
+
+
+
   // console.log(currentTypeId);
   // for (var i = 0; i < .length; i++) {
   //   console.log(productsArray.products[0]);
   // };
-}
-
-
-  // console.log("type ID", typeID, event);
 
 
 productInfo.getJSONFile();

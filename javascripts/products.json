@@ -1,130 +1,142 @@
 {
-    "products": [{
-        "fairy_sparklers":
+    "products": [
         {
-            "id": 0,
-            "type": 0,
-            "name": "Fairy Sparklers",
-            "description": "Multi-colored sparklers that are safe for any age."
+            "fairy_sparklers":
+            {
+                "id": 0,
+                "type": 0,
+                "name": "Fairy Sparklers",
+                "description": "Multi-colored sparklers that are safe for any age."
+            },
+            "fire_crackers":
+            {
+                "id": 1,
+                "type": 0,
+                "name": "Fire Crackers",
+                "description": "Small fireworks which make a loud pop. Safe for ages 10 and up."
+            },
+            "snakes":
+            {
+                "id": 2,
+                "type": 0,
+                "name": "Snakes",
+                "description": "Small black tube which grows up to 10x it's size! Safe for all ages."
+            }
         },
-        "fire_crackers":
         {
-            "id": 1,
-            "type": 0,
-            "name": "Fire Crackers",
-            "description": "Small fireworks which make a loud pop. Safe for ages 10 and up."
+            "the_big_one":
+            {
+                "id": 3,
+                "type": 1,
+                "name": "The Big One",
+                "description": "A large Multi-colored flower. For professional use only."
+            },
+            "the_ninja":
+            {
+                "id": 4,
+                "type": 1,
+                "name": "The Ninja",
+                "description": "Completely silent until it reaches it's peak and turns into a large shuriken. For professional use only."
+            },
+            "the_smiley_face":
+            {
+                "id": 5,
+                "type": 1,
+                "name": "The Smiley Face",
+                "description": "A large, yellow, round smiley face. For professional use only."
+            }
         },
-        "snakes":
         {
-            "id": 2,
-            "type": 0,
-            "name": "Snakes",
-            "description": "Small black tube which grows up to 10x it's size! Safe for all ages."
+            "the_heart":
+            {
+                "id": 6,
+                "type": 2,
+                "name": "The Heart",
+                "description": "A large red heart for Valentine's Day. For personal or professional use."
+            },
+            "the_flag":
+            {
+                "id": 7,
+                "type": 2,
+                "name": "The Flag",
+                "description": "A flag of the United States. Perfect for 4th of July. Professional use only."
+            },
+            "the_turkey":
+            {
+                "id": 8,
+                "type": 2,
+                "name": "The Turkey",
+                "description": "A large uncooked turkey to celebrate Thanksiving. Professional use only."
+            }
         },
-        "the_big_one":
         {
-            "id": 3,
-            "type": 1,
-            "name": "The Big One",
-            "description": "A large Multi-colored flower. For professional use only."
+            "rdx":
+            {
+                "id": 9,
+                "type": 3,
+                "name": "RDX",
+                "description": "High-powered explosive designed to take out steel columns to produce implosion demolition."
+            },
+            "dynamite":
+            {
+                "id": 10,
+                "type": 3,
+                "name": "Dynamite",
+                "description": "High-powered explosive designed for concrete column implosion demolition."
+            },
+            "atomic_bomb":
+            {
+                "id": 11,
+                "type": 3,
+                "name": "Atomic Bomb",
+                "description": "When your neighbors should no longer exist. Recommended only as a last resort."
+            }
         },
-        "the_ninja":
         {
-            "id": 4,
-            "type": 1,
-            "name": "The Ninja",
-            "description": "Completely silent until it reaches it's peak and turns into a large shuriken. For professional use only."
+            "hand_grenade":
+            {
+                "id": 12,
+                "type": 4,
+                "name": "Hand Grenade",
+                "description": "Caution: pin pulling will trigger explosion."
+            },
+            "tnt":
+            {
+                "id": 13,
+                "type": 4,
+                "name": "TNT",
+                "description": "For when you really want to get that roadrunner."
+            },
+            "nitroglycerin":
+            {
+                "id": 14,
+                "type": 4,
+                "name": "Nitroglycerin",
+                "description": "Not the kind you find in your grandma's medicine cabinet."
+            }
         },
-        "the_smiley_face":
         {
-            "id": 5,
-            "type": 1,
-            "name": "The Smiley Face",
-            "description": "A large, yellow, round smiley face. For professional use only."
-        },
-        "the_heart":
-        {
-            "id": 6,
-            "type": 2,
-            "name": "The Heart",
-            "description": "A large red heart for Valentine's Day. For personal or professional use."
-        },
-        "the_flag":
-        {
-            "id": 7,
-            "type": 2,
-            "name": "The Flag",
-            "description": "A flag of the United States. Perfect for 4th of July. Professional use only."
-        },
-        "the_turkey":
-        {
-            "id": 8,
-            "type": 2,
-            "name": "The Turkey",
-            "description": "A large uncooked turkey to celebrate Thanksiving. Professional use only."
-        },
-        "rdx":
-        {
-            "id": 9,
-            "type": 3,
-            "name": "RDX",
-            "description": "High-powered explosive designed to take out steel columns to produce implosion demolition."
-        },
-        "dynamite":
-        {
-            "id": 10,
-            "type": 3,
-            "name": "Dynamite",
-            "description": "High-powered explosive designed for concrete column implosion demolition."
-        },
-        "atomic_bomb":
-        {
-            "id": 11,
-            "type": 3,
-            "name": "Atomic Bomb",
-            "description": "When your neighbors should no longer exist. Recommended only as a last resort."
-        },
-        "hand_grenade":
-        {
-            "id": 12,
-            "type": 4,
-            "name": "Hand Grenade",
-            "description": "Caution: pin pulling will trigger explosion."
-        },
-        "tnt":
-        {
-            "id": 13,
-            "type": 4,
-            "name": "TNT",
-            "description": "For when you really want to get that roadrunner."
-        },
-        "nitroglycerin":
-        {
-            "id": 14,
-            "type": 4,
-            "name": "Nitroglycerin",
-            "description": "Not the kind you find in your grandma's medicine cabinet."
-        },
-        "gun_powder":
-        {
-            "id": 15,
-            "type": 5,
-            "name": "Gun Powder",
-            "description": "Gun Powder is Fun Powder."
-        },
-        "anfo":
-        {
-            "id": 16,
-            "type": 5,
-            "name": "ANFO",
-            "description": "Ammonium Nitrate-Fuel Oil mixture"
-        },
-        "petn":
-        {
-            "id": 17,
-            "type": 5,
-            "name": "PETN",
-            "description": "Pentaerythritol Tetranitrate. It goes boom."
+            "gun_powder":
+            {
+                "id": 15,
+                "type": 5,
+                "name": "Gun Powder",
+                "description": "Gun Powder is Fun Powder."
+            },
+            "anfo":
+            {
+                "id": 16,
+                "type": 5,
+                "name": "ANFO",
+                "description": "Ammonium Nitrate-Fuel Oil mixture"
+            },
+            "petn":
+            {
+                "id": 17,
+                "type": 5,
+                "name": "PETN",
+                "description": "Pentaerythritol Tetranitrate. It goes boom."
+            }
         }
-    }]
+    ]
 }
